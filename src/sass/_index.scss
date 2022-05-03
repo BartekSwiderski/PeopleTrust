@@ -1,0 +1,63 @@
+@import './variables';
+
+.index{
+  &__title{
+    text-align: center;
+    padding-top: 40px;
+    color: getCol('text');
+    margin-bottom: 80px;
+    font-family: 'Bai Jamjuree';
+  }
+  &__subtitle{
+    color: getCol('span');
+    font-family: 'Bai Jamjuree';
+  }
+  &__list{
+    color: getCol('span');
+    line-height: 1.96;
+    cursor: pointer;
+  }
+  &__list:hover{
+    color: getCol('text');
+  }
+  &__link:hover{
+    color: getCol('span');
+    text-decoration: none;
+    font-weight: 700;
+  }
+  &__link{
+    color: getCol('text');
+    text-decoration: none;
+    font-weight: 700;
+  }
+  &__grid{
+    padding-left: 40px;
+  }
+
+  &__btn-link{
+    background-color: getCol('text');
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px getCol('text');
+    margin: 45px 30px 40px 0px;
+  }
+  &__btn-link:hover{
+    background-color: getCol('span');
+    color: getCol('text');;
+  }
+  &__btn-grid{
+    list-style: none;
+    display: flex;
+  }
+
+}
+.bottom{
+  margin-bottom: 100px;
+}

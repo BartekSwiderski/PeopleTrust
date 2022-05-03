@@ -1,0 +1,11 @@
+@import './variables';
+
+.container{
+  width: 900px;
+  margin: auto;
+  font-family: 'Bai Jamjuree';
+ background-color: getCol('background');
+ color: getCol('text');
+ padding-left: 50px;
+
+}

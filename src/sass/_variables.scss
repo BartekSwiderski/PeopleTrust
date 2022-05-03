@@ -1,0 +1,10 @@
+$colors:(
+    'background': #e2e1ee,
+    'text': #3b384f,
+    'span' : #13bfaf,
+    
+);
+
+@function getCol($key) {
+    @return map-get($colors, $key);
+}

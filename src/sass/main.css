@@ -1,0 +1,159 @@
+.container {
+  width: 900px;
+  margin: auto;
+  font-family: 'Bai Jamjuree';
+  background-color: #e2e1ee;
+  color: #3b384f;
+  padding-left: 50px;
+}
+
+.index__title {
+  text-align: center;
+  padding-top: 40px;
+  color: #3b384f;
+  margin-bottom: 80px;
+  font-family: 'Bai Jamjuree';
+}
+
+.index__subtitle {
+  color: #13bfaf;
+  font-family: 'Bai Jamjuree';
+}
+
+.index__list {
+  color: #13bfaf;
+  line-height: 1.96;
+  cursor: pointer;
+}
+
+.index__list:hover {
+  color: #3b384f;
+}
+
+.index__link:hover {
+  color: #13bfaf;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.index__link {
+  color: #3b384f;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.index__grid {
+  padding-left: 40px;
+}
+
+.index__btn-link {
+  background-color: #3b384f;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 2px 2px 5px #3b384f;
+          box-shadow: 2px 2px 5px #3b384f;
+  margin: 45px 30px 40px 0px;
+}
+
+.index__btn-link:hover {
+  background-color: #13bfaf;
+  color: #3b384f;
+}
+
+.index__btn-grid {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottom {
+  margin-bottom: 100px;
+}
+
+.offer__title {
+  margin-bottom: 0px;
+}
+
+.offer__subtitle {
+  margin-top: 0px;
+}
+
+.offer__tech-title {
+  margin-top: 80px;
+  font-style: italic;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.offer__tech-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+.offer__tech-item {
+  color: #fff;
+  background-color: #13bfaf;
+  padding: 3px;
+  border-radius: 3px;
+  margin-right: 7px;
+}
+
+.offer__requirements-title {
+  margin-top: 60px;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.offer__requirements-list {
+  color: #13bfaf;
+}
+
+.offer__requirements-item {
+  color: #3b384f;
+}
+
+.span {
+  color: #13bfaf;
+}
+
+.back-btn {
+  color: #fff;
+  background-color: #13bfaf;
+  padding: 6px;
+  border-radius: 3px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.back-btn:hover {
+  -webkit-box-shadow: 2px 2px 6px #3b384f;
+          box-shadow: 2px 2px 6px #3b384f;
+}
+
+.back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=main.css.map */
