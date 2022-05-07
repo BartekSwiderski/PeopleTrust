@@ -7,6 +7,16 @@
   padding-left: 50px;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.green {
+  color: #13bfaf;
+}
+
 .index__title {
   text-align: center;
   padding-top: 40px;
