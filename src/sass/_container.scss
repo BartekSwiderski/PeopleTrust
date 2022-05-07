@@ -11,7 +11,26 @@
 }
 .flex{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .green{
   color: getCol('span');
+}
+.empty{
+  width: 10px;
+}
+.flex-benefits{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.margin-left{
+  margin-left: 50px;
+}
+.no-margin{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }

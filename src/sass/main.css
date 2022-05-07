@@ -11,10 +11,43 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .green {
   color: #13bfaf;
+}
+
+.empty {
+  width: 10px;
+}
+
+.flex-benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.margin-left {
+  margin-left: 50px;
+}
+
+.no-margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .index__title {
@@ -91,7 +124,7 @@
 }
 
 .bottom {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .offer__title {
@@ -116,6 +149,21 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   list-style: none;
+}
+
+.offer__about {
+  padding: 0px 20px 50px 20px;
+  margin-bottom: 30px;
+  width: 750px;
+  text-align: justify;
+}
+
+.offer__cash {
+  font-size: 20px;
+  font-weight: 700;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .offer__tech-item {

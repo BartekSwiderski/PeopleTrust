@@ -19,6 +19,18 @@
     list-style: none;
     
   }
+  &__about{
+    padding: 0px 20px 50px 20px;
+    margin-bottom: 30px;
+    width: 750px;
+    text-align: justify;
+  }
+  &__cash{
+    
+    font-size: 20px;
+    font-weight: 700;
+    align-items: flex-end;
+  }
   &__tech-item{
     color: #fff;
     background-color: getCol('span');
