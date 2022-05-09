@@ -50,7 +50,7 @@
   }
   &__btn-link:hover{
     background-color: getCol('span');
-    color: getCol('text');;
+    color: getCol('text');
   }
   &__btn-grid{
     list-style: none;
@@ -60,4 +60,11 @@
 }
 .bottom{
   margin-bottom: 10px;
+}
+.link-text{
+  cursor: auto;
+  color: getCol('text');
+  font-size: 12px;
+  margin-top: 0px;
+
 }
